@@ -1,0 +1,64 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box; 
+}
+body{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.container{
+	width:400px;
+	height:auto;
+	border:2px solid #ccc;
+	
+}
+.image_wraper img{
+	width:100%;
+	height:auto;
+	
+}
+.content_wraper{
+	margin:10px;
+}
+.content_wraper > div{
+	display:flex;
+	justify-content:space-between;
+}
+.about button{
+	color:#fff;
+	background-color:#23da64;
+	border:none;
+	padding:5px;
+	margin:4px;
+	margin-bottom:15px;
+}
+p{
+	margin-bottom:10px;
+}
+.profile{
+	display:flex;
+	align-items:center;
+}
+.profile img{
+	width:50px;
+	border-radius:50%;
+	height:auto;
+}
+.profile h4{
+	display:inline-block;
+	margin:0 0 0 10px;
+}
+.about2{
+	border-top:1px solid #ccc;
+	padding:10px 0;
+}
+.icon{
+	display:flex;
+	align-items:center;
+	margin-right:16px;
+}
+span{
+	margin-right:10px;
+}
